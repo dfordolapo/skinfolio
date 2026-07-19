@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import { 
   UserCircle, 
-  Target, 
+  Goal, 
   History, 
   Bell, 
   Award, 
@@ -13,7 +13,7 @@ import {
 
 const actions = [
   { id: '1', title: 'Edit Profile', subtitle: 'Update your personal information', icon: UserCircle, color: '#E56B73' },
-  { id: '2', title: 'Skin Goals', subtitle: 'View and manage your skin goals', icon: Target, color: '#E56B73' },
+  { id: '2', title: 'Skin Goals', subtitle: 'View and manage your skin goals', icon: Goal, color: '#E56B73' },
   { id: '3', title: 'History', subtitle: 'Track your skin journey', icon: History, color: '#E56B73' },
   { id: '4', title: 'Notifications', subtitle: 'Manage your notifications', icon: Bell, color: '#E56B73' },
   { id: '5', title: 'Rewards & Milestones', subtitle: 'View your returns and earnings', icon: Award, color: '#E56B73' },
