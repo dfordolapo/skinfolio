@@ -15,7 +15,7 @@ export default function OnboardingSplash() {
   }, [router]);
 
   return (
-    <OnboardingLayout showBack={false} showSkip={false} backgroundColor="#FFDDE4">
+    <OnboardingLayout showBack={false} showSkip={false} backgroundColor="#FFC0D4">
       <TouchableWithoutFeedback onPress={() => router.push('/onboarding/step-1')}>
         <View style={styles.container}>
           <Animated.Image 

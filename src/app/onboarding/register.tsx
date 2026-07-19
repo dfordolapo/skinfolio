@@ -17,7 +17,7 @@ export default function OnboardingRegister() {
   };
 
   return (
-    <OnboardingLayout showSkip={false} backgroundColor="#FFDDE4">
+    <OnboardingLayout showSkip={false} backgroundColor="#FFC0D4">
       <KeyboardAvoidingView 
         style={{ flex: 1 }} 
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   label: {
-    fontFamily: 'Playfair_700Bold',
+    fontFamily: 'Inter_600SemiBold',
     fontSize: 14,
     color: '#6E444B',
     marginBottom: 2,
@@ -207,7 +207,7 @@ const styles = StyleSheet.create({
     color: '#8A6A6F',
   },
   loginLink: {
-    fontFamily: 'Playfair_700Bold',
+    fontFamily: 'Inter_600SemiBold',
     fontSize: 14,
     color: '#6E444B',
   }

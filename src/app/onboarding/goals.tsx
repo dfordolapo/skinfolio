@@ -18,7 +18,7 @@ export default function OnboardingGoals() {
   const [selectedGoal, setSelectedGoal] = useState('clear');
 
   return (
-    <OnboardingLayout backgroundColor="#FFDDE4">
+    <OnboardingLayout backgroundColor="#FFC0D4">
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
         <View style={styles.topSection}>
           <Animated.Image 

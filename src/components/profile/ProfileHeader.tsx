@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
   },
   badgeNumber: {
     fontSize: 18,
-    fontFamily: 'Playfair_700Bold',
+    fontFamily: 'Inter_600SemiBold',
     color: '#4A4A4A',
   },
 });

@@ -8,7 +8,7 @@ export default function OnboardingStep1() {
   const router = useRouter();
 
   return (
-    <OnboardingLayout backgroundColor="#FFDDE4">
+    <OnboardingLayout backgroundColor="#FFC0D4">
       <View style={styles.container}>
         <Animated.Image 
           source={require('../../../assets/images/onboarding/step1.png')} 
