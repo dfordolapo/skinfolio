@@ -53,10 +53,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#FFF',
-    paddingVertical: 16,
+    paddingVertical: 10,
     paddingHorizontal: 16,
     borderRadius: 16,
-    marginBottom: 12,
+    marginBottom: 4,
     ...Platform.select({
       ios: {
         shadowColor: '#FFD1DC',

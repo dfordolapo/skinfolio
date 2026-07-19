@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   },
   userInfo: {
     alignItems: 'center',
-    marginTop: -30,
+    marginTop: -40,
   },
   nameRow: {
     flexDirection: 'row',
